@@ -15,14 +15,14 @@ let currentColor = "";
 //Button event listener and square div creation and styling
 squareButton.addEventListener("click", function(){
     const sqDiv = document.createElement("div");
-    sqDiv.style.backgroundColor = "black";
+    /*sqDiv.style.backgroundColor = "black";
     sqDiv.style.width = "50px";
     sqDiv.style.height = "50px";
     sqDiv.style.margin = "1rem";
     sqDiv.style.float = "left";
     sqDiv.style.display = "flex";
     sqDiv.style.justifyContent = "center";
-    sqDiv.style.alignItems = "center";
+    sqDiv.style.alignItems = "center";*/
     sqDiv.className = "squares";
     sqDiv.id = "" + idnum;
     sqDiv.addEventListener("click", randomColor);
